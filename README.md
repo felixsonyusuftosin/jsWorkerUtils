@@ -50,17 +50,17 @@ where branch number format is  `0.1.{release branch}`
 ## Comment Structure 
 ### file structure 
     All files with similar functionality  must be housed  in the same workspace and a `.readme` provided that describes the following 
-        * Purpose of the workspace
-        * Short description of each files and its structure 
-        * How it ties in to the overall project 
-    - All files must be preceeded with the following comment structure
-        > /** @file `description` **/  
+         Purpose of the workspace
+         Short description of each files and its structure 
+         How it ties in to the overall project 
+    All files must be preceeded with the following comment structure
+         /** @file `description` **/  
 ## Function Defination 
     All functions must be defined with a preceeding comment 
-    > /** @method <description> @param{type} <name ></name><description> @return {type} Desciption**/ 
-        * All param must be documented 
-        * The use of <any> is strongly discouraged
-        * All methods must have a test implementation to it
+    /** @method <description> @param{type} <name ></name><description> @return {type} Desciption**/ 
+        All param must be documented 
+        The use of <any> is strongly discouraged
+        All methods must have a test implementation to it
 
 ## Constants and Variables 
     For variables that will not change it is recommended they be defined as `const` and for those that will `let` will do 
