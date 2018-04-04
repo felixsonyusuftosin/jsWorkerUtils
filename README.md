@@ -36,16 +36,16 @@ where branch number format is  `0.1.{release branch}`
 |  Patch production with a quick fix |git flow hotfix start <branch>
 |  To merge hotfix    |git flow hotfix finish <branch>
                         
-  ## Commit Structure**
+  ## Commit Structure
     The commit message must follow the predifined structure. 
     * Must be reported as a continous sentence in the following stucture as if its an answer to the statement > This commit will ..
     * Each commit message must be structured such as it answers the folowing questions 
        * What is the purpose of the commit ? 
        * What is the relationship between this commit and the previous version of the branch ? 
        * What is the status of the job done on this commit  
-    > Purpose Of Commit + Relationship with previous version +~+ + status
-    - **Example of a commit Message**
-    > git commit -m Provide access to userprovided endpoints to complement the exisiting structure ~ ongoing
+     Purpose Of Commit + Relationship with previous version +~+ + status
+     Example of a commit Message
+     git commit -m Provide access to userprovided endpoints to complement the exisiting structure ~ ongoing
   
 ## Comment Structure 
 ### file structure 
@@ -54,10 +54,10 @@ All files with similar functionality  must be housed  in the same workspace and 
     * Short description of each files and its structure 
     * How it ties in to the overall project 
 - All files must be preceeded with the following comment structure
-   * > /** @file `description` **/  
+    > /** @file `description` **/  
 ## Function Defination 
 All functions must be defined with a preceeding comment 
- * > /** @method <description> @param{type} <name ></name><description> @return {type} Desciption**/ 
+  > /** @method <description> @param{type} <name ></name><description> @return {type} Desciption**/ 
     * All param must be documented 
     * The use of <any> is strongly discouraged
     * All methods must have a test implementation to it
