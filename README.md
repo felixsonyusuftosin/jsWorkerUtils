@@ -17,7 +17,7 @@ Helper class that improves the the loading process of multiple endpoints on mult
 - All PRs must be opened against the `develop` branch however. Please request for review of your code from all contributors and once they approve you can merge in the branch and delete
 - All commit message must follow the predefined structure. see below for details. please ensure you follow this guide or your PR may not be merged.
 ## Creating Branches 
-- The following structure defines the how the branches will be created on this project **We are using Git Flow ** Please ensure you have this installed on your local machine. If you dont please get it here [Get Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+- The following structure defines the how the branches will be created on this project We are using Git Flow Please ensure you have this installed on your local machine. If you dont please get it here [Get Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 - To start a new **Feature** run `git flow feature start <nameofbranch>` 
 - When done and want to merge with your local version of develop run `git flow feature finish feature_branch`
 - When you want to create a release that will be merged to with master at a later date, that is when a stable branch has being reached. only documentations and/or bug fixes can go into the release branch. No major updates can be accommodated
