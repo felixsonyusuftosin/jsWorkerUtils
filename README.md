@@ -38,11 +38,11 @@ where branch number format is  `0.1.{release branch}`
                         
   ## Commit Structure
     The commit message must follow the predifined structure. 
-    - Must be reported as a continous sentence in the following stucture as if its an answer to the statement > This commit will ..
-    - Each commit message must be structured such as it answers the folowing questions 
-       * What is the purpose of the commit ? 
-       * What is the relationship between this commit and the previous version of the branch ? 
-       * What is the status of the job done on this commit  
+    Must be reported as a continous sentence in the following stucture as if its an answer to the statement > This commit will ..
+    Each commit message must be structured such as it answers the folowing questions 
+       What is the purpose of the commit ? 
+       What is the relationship between this commit and the previous version of the branch ? 
+       What is the status of the job done on this commit  
      Purpose Of Commit + Relationship with previous version +~+ + status
      Example of a commit Message
      git commit -m Provide access to userprovided endpoints to complement the exisiting structure ~ ongoing
