@@ -36,8 +36,8 @@ where branch number format is  `0.1.{release branch}`
 |  Patch production with a quick fix |git flow hotfix start <branch>
 |  To merge hotfix    |git flow hotfix finish <branch>
                         
-  * **Commit Structure**
-  - The commit message must follow the predifined structure. 
+  ## Commit Structure**
+    The commit message must follow the predifined structure. 
     * Must be reported as a continous sentence in the following stucture as if its an answer to the statement > This commit will ..
     * Each commit message must be structured such as it answers the folowing questions 
        * What is the purpose of the commit ? 
