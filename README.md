@@ -54,7 +54,7 @@ All files with similar functionality  must be housed  in the same workspace and 
     * Short description of each files and its structure 
     * How it ties in to the overall project 
 - All files must be preceeded with the following comment structure
-   * > /** @file <description>**/ `  
+   * > /** @file `description` **/  
 ## Function Defination 
 All functions must be defined with a preceeding comment 
  * > /** @method <description> @param{type} <name ></name><description> @return {type} Desciption**/ 
