@@ -29,12 +29,12 @@ where branch number format is  `0.1.{release branch}`
 ### Below is a summary description of the processes described above please consult this documentation before creating branches 
 | Action                   |   Command 
 | ------------------       | -------------
-| Start a new feature      |`git flow feature start <nameofbranch>`  
-|   When done and want to merge with your local version of develop              |`git flow feature finish feature_branch`
-| When you want to create a release |`git flow release start <branchNumber>`
-|  To merge release with master |`git checkout master`
-|  Patch production with a quick fix |`git flow hotfix start <branch>`
-|  To merge hotfix    |`git flow hotfix finish <branch>`
+| Start a new feature      |git flow feature start <nameofbranch> 
+|   When done and want to merge with your local version of develop              |git flow feature finish feature_branch
+| When you want to create a release |git flow release start <branchNumber>
+|  To merge release with master |git checkout master
+|  Patch production with a quick fix |git flow hotfix start <branch>
+|  To merge hotfix    |git flow hotfix finish <branch>
                         
   * **Commit Structure**
   - The commit message must follow the predifined structure. 
@@ -43,7 +43,7 @@ where branch number format is  `0.1.{release branch}`
        * What is the purpose of the commit ? 
        * What is the relationship between this commit and the previous version of the branch ? 
        * What is the status of the job done on this commit  
-    > `Purpose Of Commit` + `Relationship with previous version` +`~`+ + `status`
+    > Purpose Of Commit + Relationship with previous version +~+ + status
     - **Example of a commit Message**
     > git commit -m Provide access to userprovided endpoints to complement the exisiting structure ~ ongoing
   
@@ -54,10 +54,10 @@ All files with similar functionality  must be housed  in the same workspace and 
     * Short description of each files and its structure 
     * How it ties in to the overall project 
 - All files must be preceeded with the following comment structure
-   * > `/** @file <description>**/ `   
+   * > /** @file <description>**/ `  
 ## Function Defination 
 All functions must be defined with a preceeding comment 
- * > `/** @method <description> @param{type} <name ></name><description> @return {type} Desciption**/ `
+ * > /** @method <description> @param{type} <name ></name><description> @return {type} Desciption**/ 
     * All param must be documented 
     * The use of <any> is strongly discouraged
     * All methods must have a test implementation to it
@@ -66,5 +66,4 @@ All functions must be defined with a preceeding comment
 For variables that will not change it is recommended they be defined as `const` and for those that will `let` will do 
    * All constants must be defined with all caps 
 ## Code readability
-Code should be written with alignment in mind, readability and optimized    
   
