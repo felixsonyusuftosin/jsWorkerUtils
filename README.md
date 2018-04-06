@@ -1,12 +1,14 @@
 # flexloaders
-Helper class that improves the the loading process of multiple endpoints on multiple processes 
+Helper class that improves the the loading process of multiple endpoints on multiple processes
+- Primarily focuses on running multiple api request in parallel
+  * On the client side  
+  * This library is meant to be a node packaged module that optimize concurrent api requests and simplify as much as possible , the library should be able  integrate with other javascript projects indepent of frameworks.
+
 # Development Guide 
 ## About 
-- This library is meant to be a node packaged module that optimize concurrent api requests and simplify as much as possible , the library should be able  integrate with other javascript projects indepent of frameworks.
-
 ## Technology used 
-- Mordern Javascripts Es6 syntax will be employed in building this package. 
-   * We will be using a strict type version of JS `Typrescript` 
+- Mordern Javascripts Es6 syntax will be employed. 
+   * We will be using `Typrescript` 
    * Typescript has a .ts extension
    * We will be using a lot of webworkers and other tools as rxjs lib for its functional properties.
    * We will minimize the dependencies of this library to other libraries, so that we can keep it isolated and stable.
