@@ -41,6 +41,7 @@ export const compareDates = (dates: Date[]): boolean => {
 /**
  * @function measures start time of functions running on an array
  * @return { boolean } return true if all is executed at the same time
+ * @return {boolean}
  *
  *
  */
