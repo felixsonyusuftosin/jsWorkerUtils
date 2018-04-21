@@ -5,7 +5,7 @@ Helper class that improves the the loading process of multiple endpoints on mult
   * This library is meant to be a node packaged module that optimize concurrent api requests and simplify as much as possible , the library should be able  integrate with other javascript projects indepent of frameworks.
 
 # Collaborrative Guide 
-- Collaborators are welcome to fork this project
+- Collaborators are welcome to fork this project please read the DevelopersREADME.md form guides
 - Use Webworkers to optimize request time for multiple requests 
 - For web applications that requires loading multiple resources this library will help optimize calls                        
   ## Use Case 
