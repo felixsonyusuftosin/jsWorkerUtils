@@ -4,8 +4,6 @@
 // thirdParty imports
 import axios from 'axios';
 // local imports
-import { URLARRAY } from '../constants/test-constants';
-import { KeyValuePair } from '../types/index';
 // import * as APIWORKER from 'file-loader?name=[name].js!../lib/api-calls/web-workers/apiwebworkers';
 // Global Variables
 let globalStartTime: Date;

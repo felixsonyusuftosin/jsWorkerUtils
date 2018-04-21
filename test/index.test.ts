@@ -4,13 +4,10 @@
  */
 // third party imports
 import { expect } from 'chai';
-import axios from 'axios';
 import 'mocha';
 // local imports
 import { URLARRAY } from '../constants/test-constants';
-import { KeyValuePair } from '../types/index';
 import {
-  returnCurrentTime,
   compareDates,
   measureStartTime,
   callEndPoint
