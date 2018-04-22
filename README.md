@@ -1,4 +1,6 @@
 # flexloaders
+### DISCLAIMER: This library is a work in progress and its not ready for production 
+- To incorporate this library at this stage to your existing apps you might need to tweak some parts of the library
 Helper class that improves the the loading process of multiple endpoints on multiple processes
 - Primarily focuses on running multiple api request in parallel
   * On the client side  
