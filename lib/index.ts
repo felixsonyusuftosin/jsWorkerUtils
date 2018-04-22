@@ -3,7 +3,7 @@
  */
 // local imports
 import { KeyValuePair } from '../types';
-import * as ApiWebWorker from 'file-loader?name=[name].js!./web-workers/apiwebworker';
+import * as ApiWebWorker from 'file-loader?name=[name].js!./apiwebworkers';
 // thirdParty imports
 import 'rxjs/add/operator/map';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
