@@ -17,7 +17,7 @@
 
 ```
     import {concorrentRequests,layersSt} from 'flexloaders'
-    concurrentRequest(<* array of values *>)
+    concurrentRequest(< array of values >)
 ```
 - All requests must be labelled with a layername and a url as declared below 
 
@@ -46,7 +46,7 @@
    * You must also define a means to check if values are different before passing them as observable might stream same values over repeated calls 
     ```
         if (Object.keys(item).length > 0  {
-            * item becomes your return value *
+             item becomes your return value 
         }
     ``` 
        
