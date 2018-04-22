@@ -1,6 +1,6 @@
 {
   "name": "flexloaders",
-  "version": "1.0.3",
+  "version": "1.0.3.1",
   "description": "Helper class that improves the the loading process of multiple endpoints on multiple processes  # Development Guide  ## About  - This library is meant to be a node packaged module that optimize concurrent api requests and simplify as much as possible , the library should be able  integrate with other javascript projects indepent of frameworks.",
   "main": "index.js",
   "types":"index.d.ts",
