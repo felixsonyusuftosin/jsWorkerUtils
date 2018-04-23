@@ -37,7 +37,7 @@ const callEndPoints = (req: RequestTypes) => {
  * when the data is avaliable
  * @param {RequestTypes[]} reqArray - array of objects containing url and layername
  */
-export const concorrentRequests = (reqArray: RequestTypes[]) => {
+export const  concurrentRequests = (reqArray: RequestTypes[]) => {
   reqArray.forEach(req => {
     callEndPoints(req);
   });

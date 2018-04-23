@@ -16,9 +16,14 @@
 
 
 ```
-    import {concorrentRequests,layersSt} from 'flexloaders'
+    import { concurrentRequests,layersSt} from 'flexloaders'
     concurrentRequest(< array of values >)
 ```
+or common js 
+```
+    const concurrentRequests = require('flexloaders');
+    const layersSt = require('flexloaders');
+ ```
 - All requests must be labelled with a layername and a url as declared below 
 
 
@@ -31,7 +36,7 @@
 
 
 
-    ```concorrentRequests([reqArray])```
+    ``` concurrentRequests([reqArray])```
 
 
 
