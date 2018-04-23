@@ -1,9 +1,9 @@
 {
   "name": "flexloaders",
-  "version": "1.0.3.1",
+  "version": "1.0.4",
   "description": "Helper class that improves the the loading process of multiple endpoints on multiple processes  # Development Guide  ## About  - This library is meant to be a node packaged module that optimize concurrent api requests and simplify as much as possible , the library should be able  integrate with other javascript projects indepent of frameworks.",
-  "main": "index.js",
-  "types":"index.d.ts",
+  "main": "./dist/lib/index.js",
+  "types":"./dist/lib/index.d.ts",
   "scripts": {
     "test": "mocha -r ts-node/register **/index.test.ts",
     "build": "tsc"
@@ -19,7 +19,9 @@
     "url": "https://github.com/felixsonyusuftosin/flexloaders/issues"
   },
   "homepage": "https://github.com/felixsonyusuftosin/flexloaders#readme",
-  "devDependencies": {
+  "dependencies": {
+    "rest": "^2.0.0",
+    "rxjs": "^5.5.10",
     "@types/axios": "^0.14.0",
     "@types/chai": "^4.1.2",
     "@types/es6-promise": "^3.3.0",
@@ -33,9 +35,5 @@
     "tslint": "^5.9.1",
     "tslint-config-prettier": "^1.10.0",
     "typescript": "^2.8.1"
-  },
-  "dependencies": {
-    "rest": "^2.0.0",
-    "rxjs": "^5.5.10"
   }
 }
