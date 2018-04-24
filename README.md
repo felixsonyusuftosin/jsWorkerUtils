@@ -1,7 +1,9 @@
 # flexloaders
 ### DISCLAIMER: This library is a work in progress and its not ready for production 
 - To incorporate this library at this stage to your existing apps you might need to tweak some parts of the library
-- Helper class that improves the the loading process of multiple endpoints on multiple processes
+- Helper class that improves the the loading process of endpoints on multiple processes
+- Runs multiple processes in parallel.
+- Uses webworkers and targets es6, es2015, es5, Typescript
 - Primarily focuses on running multiple api request in parallel
   * On the client side  
   * This library is meant to be a node packaged module that optimize concurrent api requests and simplify as much as possible , the library should be able  integrate with other javascript projects indepent of frameworks.
