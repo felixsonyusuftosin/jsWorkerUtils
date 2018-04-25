@@ -1,6 +1,7 @@
 # flexloaders
 ### DISCLAIMER: This library is a work in progress and its not ready for production 
 - To incorporate this library at this stage to your existing apps you might need to tweak some parts of the library
+- Javascript Multithreading 
 - Helper class that improves the the loading process of endpoints on multiple processes
 - Runs multiple processes in parallel.
 - Uses webworkers and targets es6, es2015, es5, Typescript
