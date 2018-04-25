@@ -1,7 +1,7 @@
 {
   "name": "jsworkerutils",
-  "version": "1.0.8",
-  "description": "Helper class that improves the the loading process of multiple endpoints on multiple processes  # Development Guide  ## About  - This library is meant to be a node packaged module that optimize concurrent api requests and simplify as much as possible , the library should be able  integrate with other javascript projects indepent of frameworks.",
+  "version": "1.1.1",
+  "description": "Helper class that improves the the loading processes, an implementation of multithreaded JS # Development Guide  ## About  - This library is meant to be a node packaged module that optimize concurrent api requests and simplify as much as possible , the library should be able  integrate with other javascript projects indepent of frameworks.",
   "main": "./dist/lib/index.js",
   "types":"./dist/lib/index.d.ts",
   "scripts": {
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/felixsonyusuftosin/flexloaders.git"
+    "url": "git+https://github.com/felixsonyusuftosin/jsWorkerUtils.git"
   },
   "keywords": [],
   "author": "Felixson Yusuf Tosin <felixsonyusuftosin@gmail.com> (https://www.linkedin.com/in/felixsonyusuftosin/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/felixsonyusuftosin/flexloaders/issues"
+    "url": "https://github.com/felixsonyusuftosin/jsWorkerUtils/issues"
   },
-  "homepage": "https://github.com/felixsonyusuftosin/flexloaders#readme",
+  "homepage": "https://github.com/felixsonyusuftosin/jsWorkerUtils#readme",
   "devDependencies": {
     "@types/chai": "^4.1.2",
     "@types/es6-promise": "^3.3.0",

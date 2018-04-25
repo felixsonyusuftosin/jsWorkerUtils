@@ -1,7 +1,8 @@
 # flexloaders
-### DISCLAIMER: This library is a work in progress and its not ready for production 
-- To incorporate this library at this stage to your existing apps you might need to tweak some parts of the library
-- Helper class that improves the the loading process of endpoints on multiple processes
+### DISCLAIMER: This library is a work in progress and its not ready for production
+- The whole paradigm of JavaScript is based on the idea of single-threaded environment but here come Web Workers which remove (partially) this limitation.Web Workers allow developers to put long-running and computationally intensive tasks on the background. This library simplifies the implementation of webworker for mutithreaded processes.
+- To use this library at this stage in your existing apps you might need to tweak some parts of the library
+- Improves the the loading process of endpoints on multiple processes
 - Runs multiple processes in parallel.
 - Uses webworkers and targets es6, es2015, es5, Typescript
 - Primarily focuses on running multiple api request in parallel
