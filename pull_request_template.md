@@ -1,4 +1,4 @@
-# Pull Request Topic : < Topic Goes Here >
+# Pull Request Topic : Topic Goes Here
 
 ### About this PR 
  - Describe what issue/ improvement this PR is trying to Achieve 
